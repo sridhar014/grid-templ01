@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img1,
+        .img2,
+        .img3,
+        .img4,
+        .img5{
+            height: 80px;
+        }
+        #btn1:hover ~ .img1{
+              transform: rotate(400deg);
+              transition-property: transform;
+              transition-duration: 21s;
+             
+
+        }
+        #btn1:hover ~ .img2{
+              transform: rotate(500deg);
+              transition-property: transform;
+              transition-duration: 22s;
+        }
+        #btn1:hover ~ .img3{
+              transform: rotate(400deg);
+              transition-property: transform;
+              transition-duration: 25s;
+        }
+        #btn1:hover ~ .img4{
+              transform: rotate(400deg);
+              transition-property: transform;
+              transition-duration: 28s;
+        }
+        /* #btn1:hover ~ .img5{
+              transform: rotate(400deg);
+              transition-property: transform;
+              transition-duration: 9s;
+        } */
+             
+
+        
+        
+    </style>
+</head>
+<body>
+    <button id="btn1">Click</button>
+    <br><br><img class="img1" src="https://www.svgrepo.com/show/115742/fan-black-silhouette.svg"><hr>
+    <br><img class="img2" src="https://www.svgrepo.com/show/115742/fan-black-silhouette.svg"><hr>
+   <br><img class="img3" src="https://www.svgrepo.com/show/115742/fan-black-silhouette.svg"><hr>
+    <br><img class="img4" src="https://www.svgrepo.com/show/115742/fan-black-silhouette.svg"><hr>
+    <!-- <br><img class="img5" src="https://www.svgrepo.com/show/115742/fan-black-silhouette.svg"><hr> -->
+</body>
+</html>
